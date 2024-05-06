@@ -1,0 +1,49 @@
+.input-component {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+input {
+    padding : 16px;
+    border: 1px solid #00008f;
+    line-height: 150%;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    border-image: initial;
+}
+
+input:focus {
+    border: 1px solid #00008f;
+    outline: none;
+    box-shadow: 0 4px 16px rgba(0,0,143,0.2);
+}
+
+/** button */
+
+.button {
+    padding: 16px 32px;
+    background-color: #00008f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
